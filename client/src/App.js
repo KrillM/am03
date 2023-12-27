@@ -1,11 +1,9 @@
 import './App.css';
-import NavbarComponents from "./components/Navbar";
+import Board from './components/Board';
 
 function App() {
   return (
-    <div className="App">
-      <NavbarComponents />
-    </div>
+    <Board />
   );
 }
 
